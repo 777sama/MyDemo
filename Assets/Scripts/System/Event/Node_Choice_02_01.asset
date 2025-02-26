@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00320c39a7822d418e5a8020f570e2a, type: 3}
+  m_Name: Node_Choice_02_01
+  m_EditorClassIdentifier: 
+  state: 1
+  datas:
+  - Content: "\u6CA1\u95EE\u9898"
+    QuickLocate: 0
+  - Content: "\u73B0\u5728\u4E0D\u884C"
+    QuickLocate: 0
+  executors:
+  - {fileID: 11400000, guid: 7642a3a20732ca84dace44ecad74c502, type: 2}
+  - {fileID: 0}
+  DefaultSelectIndex: 0
